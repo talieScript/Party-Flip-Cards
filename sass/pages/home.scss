@@ -1,0 +1,11 @@
+.section-buy-now-cards {
+    height: 95vh;
+    padding: 5rem;
+    overflow: hidden;
+
+    background-image: -webkit-linear-gradient(to right, rgba(255, 219, 223, .7), rgba(238, 156, 167, .8)), url(../images/pexels-photo-415318.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to right, rgba(255, 219, 223, .7), rgba(238, 156, 167, .8)), url(../images/pexels-photo-415318.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+
+}
