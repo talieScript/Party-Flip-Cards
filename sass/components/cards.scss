@@ -27,7 +27,6 @@
     }
 
     // front side styling
-
     &__picture {
         background-size: cover;
         height: 23rem;
@@ -38,8 +37,8 @@
         &--1 {
             background-image: url(../images/pizza-party.jpg),
                               linear-gradient(to right bottom,
-                              rgba(#F7F7F7, .7),
-                              rgba(#F7F7F7, .9));
+                              rgba(#F7F7F7, .5),
+                              rgba(#F7F7F7, .5));
         }
     }
 
