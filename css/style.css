@@ -40,6 +40,24 @@ body {
     body {
       padding: 0; } }
 
+.heading-1 {
+  text-align: center;
+  padding: 2rem 3rem;
+  margin-bottom: 1rem;
+  font-size: 5rem;
+  letter-spacing: .5rem;
+  font-weight: 600;
+  transform: skew(-3deg);
+  background: #FFEFBA;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff 30%, #ffde73);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent; }
+
 .card {
   perspective: 150rem;
   -moz-perspctive: 150rem;
